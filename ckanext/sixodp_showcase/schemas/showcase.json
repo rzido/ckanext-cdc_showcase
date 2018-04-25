@@ -15,7 +15,7 @@
     {
       "field_name": "name",
       "label": "URL",
-      "preset": "dataset_slug_ex",
+      "preset": "dataset_slug",
       "form_placeholder": "eg. my-dataset",
       "description": "An URL-address which refers to the dataset. The automatically filled option derived from the title is the best option in most cases.",
       "required": true
