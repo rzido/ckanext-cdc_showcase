@@ -19,47 +19,7 @@
       "form_placeholder": "eg. my-dataset",
       "description": "An URL-address which refers to the dataset. The automatically filled option derived from the title is the best option in most cases.",
       "required": true
-    },
-    {
-      "field_name": "category",
-      "label": "Category",
-      "form_placeholder":"eg. visualization",
-      "preset": "fluent_vocabulary_with_autocomplete",
-      "validators": "fluent_tags create_fluent_tags(category)",
-      "form_attrs": {
-        "data-module": "autocomplete",
-        "data-module-tags": "",
-        "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?&vocabulary_id=category"
-      },
-      "description": "Category which represents showcase."
-    },
-    {
-      "field_name": "platform",
-      "label": "Platform",
-      "form_placeholder":"eg. android",
-      "preset": "vocabulary_with_autocomplete",
-      "validators": "convert_to_list create_tags(platform)",
-      "form_attrs": {
-        "data-module": "autocomplete",
-        "data-module-tags": "",
-        "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?&vocabulary_id=platform"
-      },
-      "description": "Platforms of the showcase."
-    },
-    {
-      "field_name": "keywords",
-      "label": "Tags",
-      "form_placeholder":"eg. every second week",
-      "form_languages": ["fi", "en", "sv"],
-      "preset": "fluent_vocabulary_with_autocomplete",
-      "validators": "fluent_tags create_fluent_tags(keywords)",
-      "form_attrs": {
-        "data-module": "autocomplete",
-        "data-module-tags": "",
-        "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?&vocabulary_id=keywords"
-      },
-      "description": "Keywords or tags through which users are able to find this dataset easily through the search page or other datasets which have the same tag."
-    },
+    },   
     {
       "field_name": "owner_org",
       "validators": "ignore",
