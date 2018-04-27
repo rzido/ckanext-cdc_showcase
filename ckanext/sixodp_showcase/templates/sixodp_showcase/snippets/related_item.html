@@ -26,12 +26,14 @@ Example:
         {% block heading %}
           <a href="{{ h.url_for(controller='ckanext.sixodp_showcase.controller:Sixodp_ShowcaseController', action='read', id=package.name) }}">
 
+            {#
             {% set pkg_icon = h.url_for_static('uploads/showcase/' + package.get('icon')) %}
             {% if pkg_icon %}
               <div class="heading-icon">
                 <img src="{{ pkg_icon }}">
               </div>
             {% endif %}
+            #}
 
             <div class="headings-wrapper">
               <h3 class="secondary-heading">
