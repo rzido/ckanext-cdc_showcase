@@ -69,6 +69,7 @@
           {% set lang = h.get_lang_prefix() %}
           <h2 class="page-subheading">
 
+            {#
             {% set showcase_categories = pkg.category.get(lang) %}
             {% if showcase_categories %}
               <span class="subheading-section">
@@ -77,7 +78,8 @@
                 {% endfor %}
               </span>
             {% endif %}
-
+            #}
+            
             <span class="subheading-section">
               {% snippet 'sixodp_showcase/snippets/tags.html', tags=pkg.keywords %}
             </span>
