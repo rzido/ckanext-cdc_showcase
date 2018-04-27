@@ -55,13 +55,14 @@
 {% endblock %}
 
 {% block pre_primary %}
+<!--
   <div class="page-hero"></div>
   <div class="search-form-container search-form-container-borderless row">
     <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12">
       {{ h.snippet('snippets/search_input.html', query=c.q, placeholder=_('Search showcases...'), query_params=c.fields_grouped, sorting=c.sort_by_selected) }}
     </div>
   </div>
-
+-->
 
   {% set featured_showcases = h.get_featured_showcases() %}
   {% if featured_showcases %}
