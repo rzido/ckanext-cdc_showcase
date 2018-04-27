@@ -197,9 +197,9 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
         if keywords:
             keywords_json = json.loads(keywords)
             if keywords_json.get('fi'):
-                data_dict['vocab_category_fi'] = [tag for tag in keywords_json['fi']]
+                data_dict['vocab_category_gl'] = [tag for tag in keywords_json['gl']]
             if keywords_json.get('sv'):
-                data_dict['vocab_category_sv'] = [tag for tag in keywords_json['sv']]
+                data_dict['vocab_category_es'] = [tag for tag in keywords_json['es']]
             if keywords_json.get('en'):
                 data_dict['vocab_category_en'] = [tag for tag in keywords_json['en']]
 
