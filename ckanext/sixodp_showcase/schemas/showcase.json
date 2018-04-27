@@ -50,7 +50,7 @@
       "field_name": "keywords",
       "label": "Tags",
       "form_placeholder":"eg. every second week",
-      "form_languages": ["fi", "en", "sv"],
+      "form_languages": ["gl", "es", "en"],
       "preset": "fluent_vocabulary_with_autocomplete",
       "validators": "fluent_tags create_fluent_tags(keywords)",
       "form_attrs": {
@@ -99,7 +99,7 @@
       "label": "Description",
       "preset": "fluent_core_markdown_translated",
       "form_placeholder": "eg. A detailed description",
-      "form_languages": ["fi", "en", "sv"],
+      "form_languages": ["gl", "es", "en"],
       "description": "An universal, compact and easy to understand description of the added resource.",
       "only_default_lang_required": true
     },
