@@ -5,6 +5,11 @@
 
 {% block subtitle %}{{ pkg.title or pkg.name }} - {{ _('Showcases') }}{% endblock %}
 
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ g.site_url }}/ckanext_showcase.css" />
+{% endblock %}
+
 {% block links -%}
   {{ super() }}
   <link rel="alternate" type="application/rdf+xml" href="{{ h.url_for(controller='ckanext.showcase.controller:ShowcaseController', action='read', id=pkg.id, format='rdf', qualified=True) }}"/>
@@ -23,30 +28,25 @@
 
 {% block breadcrumb_content_selected %} class="active"{% endblock %}
 
+{% block breadcrumb_content %}
+    {% set showcase = pkg.title or pkg.name %}
+    <li>{{ h.nav_link(_('Showcases'), controller='ckanext.showcase.controller:ShowcaseController', action='search', highlight_actions = 'new index') }}</li>
+    <li{{ self.breadcrumb_content_selected() }}>{% link_for showcase|truncate(30), controller='ckanext.showcase.controller:ShowcaseController', action='read', id=pkg.name %}</li>
+{% endblock %}
+
 {% block page_header %}
 {% endblock %}
 
 {% block pre_primary %}
-  <div class="page-hero"></div>
+{% endblock %}
 
-  {% block toolbar %}
-    <div class="toolbar">
-      <div class="container">
-        {% block breadcrumb %}
-          {% if self.breadcrumb_content() | trim %}
-            <ol class="breadcrumb">
-              {% snippet 'snippets/home_breadcrumb_item.html' %}
-              {% block breadcrumb_content %}
-                {% set showcase = pkg.title or pkg.name %}
-                <li>{{ h.nav_link(_('Showcases'), controller='ckanext.showcase.controller:ShowcaseController', action='search', highlight_actions = 'new index') }}</li>
-                <li{{ self.breadcrumb_content_selected() }}>{% link_for showcase|truncate(30), controller='ckanext.showcase.controller:ShowcaseController', action='read', id=pkg.name %}</li>
-              {% endblock %}
-            </ol>
-          {% endif %}
-        {% endblock %}
-      </div>
-    </div>
-  {% endblock %}
+
+{% block offcanvas_button %}{% endblock %}
+
+{% block primary_content_inner %}
+
+
+  <div class="page-hero"></div>
 
   <div class="container">
     <div class="page-heading-container">
@@ -117,11 +117,9 @@
     {% snippet 'sixodp_showcase/snippets/photoswipe.html' %}
 
   </div>
-{% endblock %}
 
-{% block offcanvas_button %}{% endblock %}
 
-{% block primary_content_inner %}
+
 
 {% if h.check_access('ckanext_showcase_update', {'id':pkg.id }) %}
     <div class="actions">
