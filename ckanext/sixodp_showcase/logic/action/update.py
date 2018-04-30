@@ -16,21 +16,21 @@ def showcase_update(context, data_dict):
 
 
     # schema images
-    imgs = ['icon', 'featured_image', 'image_1', 'image_2', 'image_3']
-    for image in imgs:
-        if data_dict[image]:
-            try:
-                upload = uploader.get_uploader('showcase', data_dict[image])
-            except AttributeError:
-                upload = uploader.Upload('showcase', data_dict[image])
+    #imgs = ['icon', 'featured_image', 'image_1', 'image_2', 'image_3']
+    #for image in imgs:
+     #   if data_dict[image]:
+    #        try:
+    #            upload = uploader.get_uploader('showcase', data_dict[image])
+  #          except AttributeError:
+    #            upload = uploader.Upload('showcase', data_dict[image])
 
-            upload.update_data_dict(data_dict, image,
-                                    image+'_upload', 'clear_'+ image + '_upload')
+     #       upload.update_data_dict(data_dict, image,
+    #                                image+'_upload', 'clear_'+ image + '_upload')
 
-            upload.upload(uploader.get_max_image_size())
+     #       upload.upload(uploader.get_max_image_size())
 
 
-    log.info(data_dict)            
+   # log.info(data_dict)            
             
     pkg = toolkit.get_action('package_update')(context, data_dict)
 
