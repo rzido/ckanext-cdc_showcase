@@ -32,13 +32,13 @@ def showcase_create(context, data_dict):
         upload = uploader.Upload('showcase')
 
     # schema images
-    imgs = ['icon', 'featured_image', 'image_1', 'image_2', 'image_3']
-    for image in imgs:
-        if data_dict[image]:
-            upload.update_data_dict(data_dict, image,
-                                image+'_upload', 'clear_'+ image + '_upload')
-
-            upload.upload(uploader.get_max_image_size())
+    #imgs = ['icon', 'featured_image', 'image_1', 'image_2', 'image_3']
+    #for image in imgs:
+    #    if data_dict[image]:
+    #        upload.update_data_dict(data_dict, image,
+    #                            image+'_upload', 'clear_'+ image + '_upload')
+#
+    #        upload.upload(uploader.get_max_image_size())
 
     pkg = toolkit.get_action('package_create')(context, data_dict)
 
