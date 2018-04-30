@@ -30,6 +30,8 @@ def showcase_update(context, data_dict):
             upload.upload(uploader.get_max_image_size())
 
 
+    log.info(data_dict)            
+            
     pkg = toolkit.get_action('package_update')(context, data_dict)
 
     return pkg
