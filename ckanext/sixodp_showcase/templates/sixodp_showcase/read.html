@@ -20,7 +20,7 @@
   {% set description = h.markdown_extract(pkg.notes, extract_length=200)|forceescape %}
   <meta property="og:title" content="{{ h.dataset_display_name(pkg) }} - {{ g.site_title }}">
   <meta property="og:description" content="{{ description }}">
-  <meta property="og:url" content="{{ h.full_current_url() }}">
+  <meta property="og:url" content="{{ h.full_current_url() }}">exter
   {% if pkg.image_display_url %}
      <meta property="og:image" content="{{ pkg.image_display_url }}">
   {% endif %}
@@ -161,7 +161,7 @@
     {% endblock %}
 
     {% if pkg.url %}
-      <p><a class="btn btn-primary ckanext-showcase-launch" href="{{ pkg.url }}" target="_blank"><i class="icon-external-link"></i> {{ _('Launch website') }}</a></p>
+      <p><a class="btn btn-primary ckanext-showcase-launch" href="{{ pkg.url }}" target="_blank"><i class="fa fa-external-link"></i> {{ _('Launch website') }}</a></p>
     {% endif %}
 
   {% endblock %}
