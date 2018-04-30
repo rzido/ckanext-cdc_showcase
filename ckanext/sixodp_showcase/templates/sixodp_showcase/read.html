@@ -41,30 +41,31 @@
 {% endblock %}
 
 
-{% block offcanvas_button %}{% endblock %}
-
 {% block primary_content_inner %}
-
-
-  <div class="page-hero"></div>
-
   <div class="container">
     <div class="page-heading-container">
+      
+          {% if pkg.private %}
+      <span class="dataset-private label label-inverse pull-right">
+        <i class="fa fa-lock icon-lock"></i>
+        {{ _('Private') }}
+      </span>
+      {% endif %}
+      
       {% if pkg.icon_display_url %}
         <div class="heading-icon">
           <img src="{{ pkg.icon_display_url }}">
         </div>
       {% endif %}
 
-      <div class="headings-wrapper">
-        <h1 class="page-heading">
+
           {% block page_heading %}
             {{ name }} {% if pkg.archived == 'true' %}<span class="heading-extra">({{ _('Archived') }})</span>{% endif %}
             {% if pkg.state.startswith('draft') %}
               [{{ _('Draft') }}]
             {% endif %}
           {% endblock %}
-        </h1>
+
         
         
            {#
