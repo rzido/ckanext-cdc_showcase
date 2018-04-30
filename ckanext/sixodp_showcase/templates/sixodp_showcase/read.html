@@ -148,7 +148,7 @@
     {% endif %}
 
     {% block package_notes %}
-      {% if pkg.notes_translated %}
+      {% if pkg.notes or pkg.notes_translated %}
         <div class="notes embedded-content ckanext-showcase-notes">
           {{ h.render_markdown(h.get_translated(pkg, 'notes')) }}
         </div>
