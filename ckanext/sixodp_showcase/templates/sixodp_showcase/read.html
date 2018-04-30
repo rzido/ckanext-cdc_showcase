@@ -108,6 +108,11 @@
     </div>
 
        #}
+    
+    
+    {% if pkg.image_display_url %}
+      <p class="ckanext-showcase-image-container"><img src="{{ pkg.image_display_url }}" alt="{{ name }}" class="media-image ckanext-showcase-image"></p>
+    {% endif %}
 
     <div class="image-slider-wrapper">
       <ol class="image-slider">
