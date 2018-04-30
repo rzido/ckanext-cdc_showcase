@@ -94,6 +94,13 @@
       "description": "Links to stores",
       "validators": "repeating_text"
     },
+     {
+      "field_name": "notes",
+      "label": "Description",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "eg. A detailed description", 
+      "description": "An universal, compact and easy to understand description of the added resource."
+    },
     {
       "field_name": "notes_translated",
       "label": "Description",
