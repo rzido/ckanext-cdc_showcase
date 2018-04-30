@@ -65,11 +65,14 @@
             {% endif %}
           {% endblock %}
         </h1>
+        
+        
+           {#
         {% block page_subheading %}
           {% set lang = h.get_lang_prefix() %}
           <h2 class="page-subheading">
 
-            {#
+         
             {% set showcase_categories = pkg.category.get(lang) %}
             {% if showcase_categories %}
               <span class="subheading-section">
