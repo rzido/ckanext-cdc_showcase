@@ -170,6 +170,7 @@
     {% endif %}
   {% endblock %}
 
+{#
   {% block package_info_mobile_only %}
     <div class="mobile-only">
       {% set author_showcases = h.get_showcases_by_author(pkg.author, 5, pkg.id) %}
@@ -192,7 +193,7 @@
   {% block package_search_results_list %}
   {% endblock %}
 
-  {# {% block package_comments %}
+  {% block package_comments %}
     {{ h.disqus_comments() }}
   {% endblock %}
 #}
