@@ -37,7 +37,7 @@ class Sixodp_ShowcaseController(ShowcaseController):
         return super(Sixodp_ShowcaseController, self).manage_showcase_admins()
 
     def new(self, data=None, errors=None, error_summary=None):
-        log.info("In sixodp showcase controller new")
+        #log.info("In sixodp showcase controller new")
         return super(Sixodp_ShowcaseController, self).new(data=data, errors=errors,
                                                           error_summary=error_summary)
 
@@ -73,7 +73,7 @@ class Sixodp_ShowcaseController(ShowcaseController):
                       extra_vars={'dataset_type': 'showcase'})
 
     def edit(self, id, data=None, errors=None, error_summary=None):
-        log.info("In sixodp showcase controller edit")
+        #log.info("In sixodp showcase controller edit")
         return super(Sixodp_ShowcaseController, self).edit(id, data=data, errors=errors, error_summary=error_summary)
 
     def _guess_package_type(self, expecting_name=False):
