@@ -42,9 +42,7 @@
 
 
 {% block primary_content_inner %}
-  <div class="container">
-    <div class="page-heading-container">
-      
+  
           {% if pkg.private %}
       <span class="dataset-private label label-inverse pull-right">
         <i class="fa fa-lock icon-lock"></i>
@@ -100,13 +98,13 @@
             <span class="subheading-section">{{ _('updated') }} {{ h.render_datetime(pkg.metadata_modified, '%-d.%-m.%Y') }}</span>
           </h2>
         {% endblock %}
-      </div>
+
       <div class="heading-rating-wrapper">
         {% block rating %}
           {% snippet "rating/snippets/rating_single.html", package=pkg, enable_input="true" %}
         {% endblock %}
       </div>
-    </div>
+
 
        #}
     
