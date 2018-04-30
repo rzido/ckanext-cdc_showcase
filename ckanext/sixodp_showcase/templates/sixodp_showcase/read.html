@@ -42,17 +42,11 @@
 
 
 {% block primary_content_inner %}
-
-     {% if h.check_access('ckanext_showcase_update', {'id':pkg.id }) %}
+   {% if h.check_access('ckanext_showcase_update', {'id':pkg.id }) %}
       <div class="actions">
         {% link_for _('Manage'), controller='ckanext.sixodp_showcase.controller:Sixodp_ShowcaseController', action='edit', id=pkg.name, class_='btn', icon='wrench' %}
       </div>
-     {% endif %}
-  
-     
-      
-      
-
+  {% endif %}  
   {% block package_description %}
     {% if pkg.private %}
       <span class="dataset-private label label-inverse pull-right">
@@ -60,72 +54,21 @@
         {{ _('Private') }}
       </span>
     {% endif %}
+     <h1>
+       {% block page_heading %}
+         {{ name }} {% if pkg.archived == 'true' %}<span>({{ _('Archived') }})</span>{% endif %}
+         {% if pkg.state.startswith('draft') %}
+            [{{ _('Draft') }}]
+         {% endif %}
+       {% endblock %}
+      </h1>
 
-{% if pkg.icon_display_url %}
+      {% if pkg.icon_display_url %}
         <div class="heading-icon">
           <img src="{{ pkg.icon_display_url }}">
         </div>
       {% endif %}
 
-      {% if pkg.private %}
-        <span class="dataset-private label label-inverse pull-right">
-          <i class="fa fa-lock icon-lock"></i>
-          {{ _('Private') }}
-        </span>
-      {% endif %}
-
-      <h1>
-          {% block page_heading %}
-            {{ name }} {% if pkg.archived == 'true' %}<span class="heading-extra">({{ _('Archived') }})</span>{% endif %}
-            {% if pkg.state.startswith('draft') %}
-              [{{ _('Draft') }}]
-            {% endif %}
-          {% endblock %}
-      </h1>
-        
-        
-           {#
-        {% block page_subheading %}
-          {% set lang = h.get_lang_prefix() %}
-          <h2 class="page-subheading">
-
-         
-            {% set showcase_categories = pkg.category.get(lang) %}
-            {% if showcase_categories %}
-              <span class="subheading-section">
-                {% for category in showcase_categories %}
-                 {{ category }}{% if not loop.last %}, {% endif %}
-                {% endfor %}
-              </span>
-            {% endif %}
-          
-            
-            <span class="subheading-section">
-              {% snippet 'sixodp_showcase/snippets/tags.html', tags=pkg.keywords %}
-            </span>
-          </h2>
-        
-       
-          <h2 class="page-subheading">
-            {% if pkg.author %}
-              <span class="subheading-section">{{ pkg.author }}</span>
-              <span> - </span>
-            {% endif %}
-            <span class="subheading-section">{{ _('Published') }} {{ h.render_datetime(pkg.metadata_created, '%-d.%-m.%Y') }}</span>
-            <span> - </span>
-            <span class="subheading-section">{{ _('updated') }} {{ h.render_datetime(pkg.metadata_modified, '%-d.%-m.%Y') }}</span>
-          </h2>
-        {% endblock %}
-
-      <div class="heading-rating-wrapper">
-        {% block rating %}
-          {% snippet "rating/snippets/rating_single.html", package=pkg, enable_input="true" %}
-        {% endblock %}
-      </div>
-
-
-       #}
-    
     
     {% if pkg.image_display_url %}
       <p class="ckanext-showcase-image-container"><img src="{{ pkg.image_display_url }}" alt="{{ name }}" class="media-image ckanext-showcase-image"></p>
@@ -145,17 +88,10 @@
   </div>
 
 
-
-
-
-
   {% block store_icons %}
     {{ h.snippet('sixodp_showcase/snippets/store_icon_links.html', store_links=pkg.store_urls) }}
   {% endblock %}
 
-    {% if pkg.image_display_url %}
-      <p class="ckanext-showcase-image-container"><img src="{{ pkg.image_display_url }}" alt="{{ name }}" class="media-image ckanext-showcase-image"></p>
-    {% endif %}
 
     {% block package_notes %}
       {% if pkg.notes or pkg.notes_translated %}
@@ -180,35 +116,6 @@
     {% endif %}
   {% endblock %}
 
-{#
-  {% block package_info_mobile_only %}
-    <div class="mobile-only">
-      {% set author_showcases = h.get_showcases_by_author(pkg.author, 5, pkg.id) %}
-      {% if author_showcases %}
-        <h2 class="module-heading">{{ _('More from the author') }}</h2>
-        {{ h.snippet('sixodp_showcase/snippets/related_list.html', packages=author_showcases, current=pkg.id) }}
-      <a href="{{ h.url_for(controller='ckanext.sixodp_showcase.controller:Sixodp_ShowcaseController', action='search', author=pkg.author) }}"
-        class="btn btn-block btn-transparent--inverse btn-list-item">
-        {{ _('Show all from this author') }}
-      </a>
-      {% endif %}
-      {% snippet "snippets/social.html" %}
-    </div>
-  {% endblock %}
-
-  {% block package_tags %}
-    {% snippet "showcase/snippets/tags.html", tags=pkg.tags %}
-  {% endblock %}
-
-  {% block package_search_results_list %}
-  {% endblock %}
-
-  {% block package_comments %}
-    {{ h.disqus_comments() }}
-  {% endblock %}
-
-
-#}
 {% endblock %}
 
 
