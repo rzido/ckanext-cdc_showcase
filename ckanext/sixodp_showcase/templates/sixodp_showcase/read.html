@@ -42,13 +42,14 @@
 
 
 {% block primary_content_inner %}
+
+     {% if h.check_access('ckanext_showcase_update', {'id':pkg.id }) %}
+      <div class="actions">
+        {% link_for _('Manage'), controller='ckanext.sixodp_showcase.controller:Sixodp_ShowcaseController', action='edit', id=pkg.name, class_='btn', icon='wrench' %}
+      </div>
+     {% endif %}
   
-          {% if pkg.private %}
-      <span class="dataset-private label label-inverse pull-right">
-        <i class="fa fa-lock icon-lock"></i>
-        {{ _('Private') }}
-      </span>
-      {% endif %}
+      {% block package_description %}
       
       {% if pkg.icon_display_url %}
         <div class="heading-icon">
@@ -56,14 +57,21 @@
         </div>
       {% endif %}
 
+      {% if pkg.private %}
+        <span class="dataset-private label label-inverse pull-right">
+          <i class="fa fa-lock icon-lock"></i>
+          {{ _('Private') }}
+        </span>
+      {% endif %}
 
+      <h1>
           {% block page_heading %}
             {{ name }} {% if pkg.archived == 'true' %}<span class="heading-extra">({{ _('Archived') }})</span>{% endif %}
             {% if pkg.state.startswith('draft') %}
               [{{ _('Draft') }}]
             {% endif %}
           {% endblock %}
-
+      </h1>
         
         
            {#
@@ -129,11 +137,7 @@
 
 
 
-{% if h.check_access('ckanext_showcase_update', {'id':pkg.id }) %}
-    <div class="actions">
-    {% link_for _('Manage'), controller='ckanext.sixodp_showcase.controller:Sixodp_ShowcaseController', action='edit', id=pkg.name, class_='btn', icon='wrench' %}
-    </div>
-  {% endif %}
+
 
   {% block store_icons %}
     {{ h.snippet('sixodp_showcase/snippets/store_icon_links.html', store_links=pkg.store_urls) }}
