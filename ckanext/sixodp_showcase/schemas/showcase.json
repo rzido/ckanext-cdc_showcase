@@ -137,7 +137,7 @@
       "upload_label": "Icon"
     },
     {
-      "field_name": "image",
+      "field_name": "image_url",
       "label": "Image",
       "preset": "showcase_url_upload",
       "form_placeholder": "http://example.com/my-camel-photo.jpg",
