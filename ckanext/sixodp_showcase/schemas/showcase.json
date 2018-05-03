@@ -52,15 +52,6 @@
       "description": "An universal, compact and easy to understand description of the added resource."
     },
     {
-      "field_name": "notes_translated",
-      "label": "Description",
-      "preset": "fluent_core_markdown_translated",
-      "form_placeholder": "eg. A detailed description",
-      "form_languages": ["gl", "es", "en"],
-      "description": "An universal, compact and easy to understand description of the added resource.",
-      "only_default_lang_required": true
-    },    
-    {
       "field_name": "image_url",
       "label": "Image",
       "preset": "showcase_url_upload",
