@@ -37,7 +37,8 @@ class Sixodp_ShowcaseController(ShowcaseController):
         return super(Sixodp_ShowcaseController, self).manage_showcase_admins()
 
     def new(self, data=None, errors=None, error_summary=None):
-        #log.info("In sixodp showcase controller new")
+        log.info("--------- In sixodp showcase controller new --------------")
+        log.debug(data)
         return super(Sixodp_ShowcaseController, self).new(data=data, errors=errors,
                                                           error_summary=error_summary)
 
