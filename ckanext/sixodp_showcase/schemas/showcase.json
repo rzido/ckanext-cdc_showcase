@@ -44,12 +44,14 @@
       "form_placeholder": "http://www.example.com",
       "display_snippet": "link.html"
     },   
-     {
-      "field_name": "notes",
+    {
+      "field_name": "notes_translated",
       "label": "Description",
-      "form_snippet": "markdown.html",
-      "form_placeholder": "eg. A detailed description", 
-      "description": "An universal, compact and easy to understand description of the added resource."
+      "preset": "fluent_core_markdown_translated",
+      "form_placeholder": "eg. A detailed description",
+      "form_languages": ["gl", "es", "en"],
+      "description": "An universal, compact and easy to understand description of the added resource.",
+      "only_default_lang_required": false
     },
     {
       "field_name": "image_url",
