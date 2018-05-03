@@ -21,7 +21,7 @@ def showcase_create(context, data_dict):
     '''Upload the image and continue with package creation.'''
 
     log.info('**** showcase_create *******')
-    log.debug(data_dict)
+
     # force type to 'showcase'
     data_dict['type'] = 'showcase'
 
@@ -42,6 +42,9 @@ def showcase_create(context, data_dict):
 #
     #        upload.upload(uploader.get_max_image_size())
 
+    
+    log.debug(data_dict)
     pkg = toolkit.get_action('package_create')(context, data_dict)
-
+    log.debug ('** paquete **')
+    log.debug (pkg)
     return pkg
