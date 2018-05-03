@@ -47,7 +47,7 @@
     {
       "field_name": "notes_translated",
       "label": "Description",
-      "preset": "fluent_core_markdown_translated",
+      "preset": "fluent_core_translated",
       "form_placeholder": "eg. A detailed description",
       "form_languages": ["gl", "es", "en"],
        "required_language": "gl"
