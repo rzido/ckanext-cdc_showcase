@@ -20,6 +20,8 @@ log = logging.getLogger(__name__)
 def showcase_create(context, data_dict):
     '''Upload the image and continue with package creation.'''
 
+    log.info('**** showcase_create *******')
+    log.debug(data_dict)
     # force type to 'showcase'
     data_dict['type'] = 'showcase'
 
