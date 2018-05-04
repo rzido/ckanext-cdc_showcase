@@ -43,15 +43,51 @@
       "label": "Application Website",
       "form_placeholder": "http://www.example.com",
       "display_snippet": "link.html"
-    },   
+    }, 
     {
+      "field_name": "store_urls",
+      "preset": "repeating_text",
+      "label": "Links to stores",
+      "form_blanks": 1,
+      "display_snippet": "repeating_link.html",
+      "form_snippet": "repeating.html",
+      "description": "Links to stores",
+      "validators": "repeating_text"
+   },
+   {
+      "field_name": "featured",
+      "label": "Featured",
+      "preset": "select",
+      "choices":[
+        {
+          "value": "false",
+          "label": "No"
+        },
+        {
+          "value": "true",
+          "label": "Yes"
+        }
+      ],
+      "required": true,
+      "validators": "boolean_validator"
+   },
+   {
+      "field_name": "icon",
+      "label": "Icon",
+      "preset": "showcase_url_upload",
+      "form_placeholder": "http://example.com/my-camel-photo.jpg",
+      "upload_field": "icon_upload",
+      "upload_clear": "clear_icon_upload",
+      "upload_label": "Icon"
+},
+   {
       "field_name": "notes_translated",
       "label": "Description",
       "preset": "fluent_core_translated",
       "form_placeholder": "eg. A detailed description",
       "form_languages": ["gl", "es", "en"],
        "required_language": "gl"
-    },
+   },
     {
       "field_name": "image_url",
       "label": "Image",
