@@ -96,7 +96,17 @@
       "upload_field": "image_1_upload",
       "upload_clear": "clear_image_1_upload",
       "upload_label": "Image 1"
-    },    
+    },
+    {
+      "field_name": "featured_image",
+      "label": "Featured Image",
+      "preset": "showcase_url_upload",
+      "form_placeholder": "http://example.com/my-camel-photo.jpg",
+      "upload_field": "feature_image_upload",
+      "upload_clear": "clear_featured_image_upload",
+      "upload_label": "Featured Image",
+      "description": "Image size xx times xx."
+    },
     {
       "field_name": "notifier",
       "label": "Notifier",
