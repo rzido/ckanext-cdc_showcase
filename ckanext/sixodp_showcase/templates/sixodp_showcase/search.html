@@ -65,6 +65,7 @@
   </div>
 -->
 
+{#
   {% set featured_showcases = h.get_featured_showcases() %}
   {% if featured_showcases %}
     <div class="page-highlight">
@@ -72,7 +73,7 @@
     </div>
   {% endif %}
 {% endblock %}
-
+ #}
 
 {% block package_search_results_list %}
   {{ h.snippet('sixodp_showcase/snippets/showcase_list.html', packages=c.page.items) }}
