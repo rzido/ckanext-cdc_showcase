@@ -89,15 +89,6 @@
        "required_language": "gl"
    },
     {
-      "field_name": "image_url",
-      "label": "Image",
-      "preset": "showcase_url_upload",
-      "form_placeholder": "http://example.com/my-camel-photo.jpg",
-      "upload_field": "image_1_upload",
-      "upload_clear": "clear_image_1_upload",
-      "upload_label": "Image 1"
-    },
-    {
       "field_name": "featured_image",
       "label": "Featured Image",
       "preset": "showcase_url_upload",
@@ -107,6 +98,42 @@
       "upload_label": "Featured Image",
       "description": "Image size xx times xx."
     },
+     {
+      "field_name": "image_url",
+      "label": "Image",
+      "preset": "showcase_url_upload",
+      "form_placeholder": "http://example.com/my-camel-photo.jpg",
+      "upload_field": "image_1_upload",
+      "upload_clear": "clear_image_1_upload",
+      "upload_label": "Image 1"
+    },
+    {
+      "field_name": "image_1",
+      "label": "Image 1",
+      "preset": "showcase_url_upload",
+      "form_placeholder": "http://example.com/my-camel-photo.jpg",
+      "upload_field": "image_1_upload",
+      "upload_clear": "clear_image_1_upload",
+      "upload_label": "Image 1"
+    },
+    {
+      "field_name": "image_2",
+      "label": "Image 2",
+      "preset": "showcase_url_upload",
+      "form_placeholder": "http://example.com/my-camel-photo.jpg",
+      "upload_field": "image_2_upload",
+      "upload_clear": "clear_image_2_upload",
+      "upload_label": "Image 2"
+    },
+    {
+      "field_name": "image_3",
+      "label": "Image 3",
+      "preset": "showcase_url_upload",
+      "form_placeholder": "http://example.com/my-camel-photo.jpg",
+      "upload_field": "image_3_upload",
+      "upload_clear": "clear_image_3_upload",
+      "upload_label": "Image 3"
+},
     {
       "field_name": "notifier",
       "label": "Notifier",
