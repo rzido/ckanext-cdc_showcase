@@ -3,21 +3,21 @@
     {% if item | length > 0 %}
       <li>
         {% if 'itunes.apple.com' in item %}
-          <a href="{{item}}">
+          <a href="{{item}}"  class="badge">
             <i class="fa fa-apple"></i>
             
           </a>
         {% elif 'play.google.com' in item %}
-          <a href="{{item}}">
+          <a href="{{item}}"  class="badge">
              <i class="fa fa-google-play"></i>
           </a>
         {% elif 'microsoft.com' in item %}
-          <a href="{{item}}">
+          <a href="{{item}}" class="badge">
                 <i class="fa fa-microsoft"></i>
           </a>
         {% else %}
-          <a href="{{item}}">
-            <i class="fa fa-globe"></i>
+          <a href="{{item}}"  class="badge">
+            <i class="fa fa-globe" ></i>
           </a>
         {% endif %}
       </li>
