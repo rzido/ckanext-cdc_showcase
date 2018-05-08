@@ -4,19 +4,20 @@
       <li>
         {% if 'itunes.apple.com' in item %}
           <a href="{{item}}">
-            <img src="/assets/images/apple-app-store-badge-{{ h.get_current_lang() }}.svg">
+            <i class="fa fa-apple"></i>
+            
           </a>
         {% elif 'play.google.com' in item %}
           <a href="{{item}}">
-            <img src="/assets/images/google-play-badge-{{ h.get_current_lang() }}.png">
+             <i class="fa fa-google-play"></i>
           </a>
         {% elif 'microsoft.com' in item %}
           <a href="{{item}}">
-            <img src="/assets/images/microsoft-store-badge-{{ h.get_current_lang() }}.png">
+                <i class="fa fa-microsoft"></i>
           </a>
         {% else %}
           <a href="{{item}}">
-            <img src="/assets/images/website-badge-{{ h.get_current_lang() }}.png">
+            <i class="fa fa-globe"></i>
           </a>
         {% endif %}
       </li>
