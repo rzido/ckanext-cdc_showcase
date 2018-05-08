@@ -72,8 +72,9 @@
       {{ h.snippet('snippets/page_highlight.html', items=featured_showcases, image_identifier="featured_image_display_url", meta_identifier="category", controller='ckanext.sixodp_showcase.controller:Sixodp_ShowcaseController') }}
     </div>
   {% endif %}
+#}
 {% endblock %}
- #}
+ 
 
 {% block package_search_results_list %}
   {{ h.snippet('sixodp_showcase/snippets/showcase_list.html', packages=c.page.items) }}
