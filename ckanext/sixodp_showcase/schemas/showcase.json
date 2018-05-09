@@ -21,6 +21,14 @@
       "required": true
     },   
     {
+      "field_name": "notes_translated",
+      "label": "Description",
+      "preset": "fluent_core_translated",
+      "form_placeholder": "eg. A detailed description",
+      "form_languages": ["gl", "es", "en"],
+       "required_language": "gl"
+   },
+    {
       "field_name": "owner_org",
       "validators": "ignore",
       "display_snippet": null,
@@ -79,15 +87,7 @@
       "upload_field": "icon_upload",
       "upload_clear": "clear_icon_upload",
       "upload_label": "Icon"
-},
-   {
-      "field_name": "notes_translated",
-      "label": "Description",
-      "preset": "fluent_core_translated",
-      "form_placeholder": "eg. A detailed description",
-      "form_languages": ["gl", "es", "en"],
-       "required_language": "gl"
-   },
+},   
     {
       "field_name": "featured_image",
       "label": "Featured Image",
@@ -98,11 +98,6 @@
       "upload_label": "Featured Image",
       "description": "Image size xx times xx."
     },
-  {
-      "field_name": "image_url",
-      "label": "Image URL",
-      "preset": "showcase_url_upload"
-   },
     {
       "field_name": "image_1",
       "label": "Image 1",
