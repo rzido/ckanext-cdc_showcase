@@ -11,133 +11,127 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-04-12 12:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Hami Kekkonen <hami.kekkonen@hel.fi>, 2017\n"
-"Language-Team: Finnish (https://www.transifex.com/6aika-dataportal/teams/68018/fi/)\n"
+"Language-Team: English (United Kingdom) (https://www.transifex.com/6aika-dataportal/teams/68018/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: fi\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ckanext/sixodp_showcase/controller.py:64
 msgid "Showcase not found"
-msgstr "Sovellusta ei löytynyt"
+msgstr "Aplicación no encontrada"
 
 #: ckanext/sixodp_showcase/controller.py:66
 msgid "Unauthorized to read showcase"
-msgstr "Ei oikeuksia lukea sovellusta"
+msgstr "No estás autorizado a leer la aplicación"
 
 #: ckanext/sixodp_showcase/controller.py:105
 msgid "Not authorized to see this page"
-msgstr "Ei oikeuksia nähdä tätä sivua"
+msgstr "No estás autorizado a ver esta página"
 
 #: ckanext/sixodp_showcase/controller.py:199
 msgid "Organizations"
-msgstr "Organisaatiot"
+msgstr "Organizaciones"
 
 #: ckanext/sixodp_showcase/controller.py:200
 msgid "Groups"
-msgstr "Ryhmät"
+msgstr "Grupos"
 
 #: ckanext/sixodp_showcase/controller.py:201
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:33
 msgid "Tags"
-msgstr "Avainsanat"
+msgstr "Etiquetas"
 
 #: ckanext/sixodp_showcase/controller.py:202
 msgid "Formats"
-msgstr "Tiedostomuodot"
+msgstr "Formatos"
 
 #: ckanext/sixodp_showcase/controller.py:203
 msgid "Licenses"
-msgstr "Lisenssit"
+msgstr "Licencias"
 
 #: ckanext/sixodp_showcase/controller.py:253
 msgid "Invalid search query: {error_message}"
-msgstr "Virheellinen haku: {error_message}"
+msgstr "Consulta de búsqueda invalida: {error_message}"
 
 #: ckanext/sixodp_showcase/controller.py:270
 msgid "Parameter \"{parameter_name}\" is not an integer"
-msgstr "Parametri \"{parameter_name}\" ei ole kokonaisluku"
+msgstr "El parámetro \"{parameter_name}\" no es un entero"
 
 #: ckanext/sixodp_showcase/plugin.py:99
 msgid "Category"
-msgstr "Kategoria"
+msgstr "Categoría"
 
 #: ckanext/sixodp_showcase/plugin.py:101
 msgid "Platform"
-msgstr "Alusta"
+msgstr "Plataforma"
 
 #: ckanext/sixodp_showcase/templates/admin/base.html:6
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:38
 msgid "Showcase Admins"
-msgstr "Sovellusten ylläpitäjät"
+msgstr "Administradores de aplicaciones"
 
 #: ckanext/sixodp_showcase/templates/admin/confirm_remove_showcase_admin.html:3
 #: ckanext/sixodp_showcase/templates/admin/confirm_remove_showcase_admin.html:16
 msgid "Confirm Remove"
-msgstr "Vahvista poisto"
+msgstr "Confirmar borrado"
 
 #: ckanext/sixodp_showcase/templates/admin/confirm_remove_showcase_admin.html:11
 msgid ""
 "Are you sure you want to remove this user as a Showcase Admin - {name}?"
-msgstr ""
-"Haluatko varmasti poistaa käyttäjän {name} sovellusten ylläpitäjän oikeudet?"
+msgstr "¿Estás seguro de que quieres borrar este usuario como un administrador de aplicaciones - {name}?"
 
 #: ckanext/sixodp_showcase/templates/admin/confirm_remove_showcase_admin.html:15
 msgid "Cancel"
-msgstr "Peruuta"
+msgstr "Cancelar"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:9
 msgid "Manage Showcase Admins"
-msgstr "Hallitse sovellusten ylläpitäjiä"
+msgstr "Gestionar admininistradores de aplicaciones"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:16
 msgid "Add an Existing User"
-msgstr "Lisää olemassa oleva käyttäjä"
+msgstr "Añadir un usuario existente"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:19
 msgid ""
 "To make an existing user a Showcase Admin, search for their username below."
-msgstr ""
-"Tehdäksesi olemassaolevasta käyttäjästä sovellusten ylläpitäjän, etsi häntä "
-"käyttäjätunnuksella."
+msgstr "Para convertir a un usuario existente en administrador de aplicaciones, buscar debajos por su nombre de usuario"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:23
 msgid "Username"
-msgstr "Käyttäjätunnus"
+msgstr "Nombre de usuario"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:32
 msgid "Add User"
-msgstr "Lisää käyttäjä"
+msgstr "Añadir usuario"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:43
 msgid "User"
-msgstr "Käyttäjä"
+msgstr "Usuario"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:51
 msgid ""
 "Are you sure you want to remove this user from the Showcase Admin list?"
-msgstr ""
-"Haluatko varmasti poistaa käyttäjän sovellusten ylläpitäjien listalta?"
+msgstr "¿Estás seguro de que quieres borrar este usuario de la lista de administradores de aplicaciones?"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:53
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:45
 msgid "Remove"
-msgstr "Poista"
+msgstr "Borrar"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:61
 msgid "There are currently no Showcase Admins."
-msgstr "Sivustolla ei ole tällä hetkellä sovellusten ylläpitäjiä."
+msgstr "Actualmente no hay administradores de aplicaciones"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:69
 msgid ""
 " <p><strong>Showcase Admin:</strong> Can create and remove showcases. Can "
 "add and remove datasets from showcases.</p> "
-msgstr ""
-"<p><strong>Sovellusten ylläpitäjä:</strong> Voi luoda ja poistaa "
-"sovelluksia. Voi lisätä ja poistaa tietoaineistoja sovelluksesta</p>"
+msgstr "<p><strong>Administrador de aplicaciones:</strong> Puede crear y borrar aplicaciones. Puede"
+"añadir y borrar conjuntos de datos de las aplicaciones"
 
 #: ckanext/sixodp_showcase/templates/package/dataset_showcase_list.html:3
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:5
@@ -148,54 +142,54 @@ msgstr ""
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:4
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:7
 msgid "Showcases"
-msgstr "Sovellukset"
+msgstr "Aplicaciones"
 
 #: ckanext/sixodp_showcase/templates/package/dataset_showcase_list.html:13
 msgid "Associate this showcase with this dataset"
-msgstr "Liitä tietoaineisto tähän sovellukseen"
+msgstr "Asociar esta aplicación con este conjunto de datos"
 
 #: ckanext/sixodp_showcase/templates/package/dataset_showcase_list.html:13
 msgid "Add to showcase"
-msgstr "Liitä sovellukseen"
+msgstr "Añadir a aplicacíón"
 
 #: ckanext/sixodp_showcase/templates/package/dataset_showcase_list.html:21
 msgid "There are no showcases that feature this dataset"
-msgstr "Tietoaineisto ei liity yhteenkään sovellukseen"
+msgstr "No hay aplicaciones que contengan este conjunto de datos"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:18
 msgid "Edit"
-msgstr "Muokkaa"
+msgstr "Editar"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:21
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new.html:3
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:63
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/package_form.html:6
 msgid "Create Showcase"
-msgstr "Luo sovellus"
+msgstr "Crear aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:34
 msgid "View showcase"
-msgstr "Näytä sovellus"
+msgstr "Ver aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:40
 msgid "Edit showcase"
-msgstr "Muokkaa sovellusta"
+msgstr "Editar aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:41
 msgid "Manage datasets"
-msgstr "Hallitse tietoaineistoja"
+msgstr "Gestionar conjuntos de datos"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new.html:8
 msgid "Create a Showcase"
-msgstr "Luo sovellus"
+msgstr "Crear una aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:15
 msgid "Title"
-msgstr "Nimike"
+msgstr "Título"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:15
 msgid "eg. A descriptive title"
-msgstr "esim. kuvaava otsikko"
+msgstr "p.ej. un título descriptivo"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:24
 msgid "URL"
@@ -203,182 +197,182 @@ msgstr "URL"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:24
 msgid "eg. my-showcase"
-msgstr "esim. minun-sovellukseni"
+msgstr "p.ej. mi-aplicacion"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:28
 msgid "Description"
-msgstr "Kuvaus"
+msgstr "Descripción"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:28
 msgid "eg. Some useful notes about the data"
-msgstr "datan sanallinen kuvaus"
+msgstr "p.ej. algunas notas útiles sobre los datos"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:33
 msgid "eg. economy, mental health, government"
-msgstr "esim. talous, mielenterveys, hallinto"
+msgstr "p.ej. economía, salud mental, gobierno"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:44
 msgid "External link"
-msgstr "Ulkoinen lähde"
+msgstr "Enlace externo"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:44
 msgid "http://www.example.com"
-msgstr "http://www.example.com"
+msgstr ""
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:48
 msgid "Submitted By"
-msgstr "Ilmoittaja"
+msgstr "Enviado por"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:48
 msgid "Joe Bloggs"
-msgstr "Etunimi Sukunimi"
+msgstr ""
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:50
 msgid "Submitter Email"
-msgstr "Ilmoittajan sähköpostiosoite"
+msgstr "Email del remitente"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:50
 msgid "joe@example.com"
-msgstr "joe@example.com"
+msgstr ""
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:58
 msgid "Are you sure you want to delete this showcase?"
-msgstr "Haluatko varmasti poistaa tämän sovelluksen?"
+msgstr "¿Estás seguro de que quieres borrar esta aplicación?"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:59
 msgid "Delete"
-msgstr "Poista"
+msgstr "Borrar"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:63
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/package_form.html:6
 msgid "Update Showcase"
-msgstr "Päivitä sovellus"
+msgstr "Actualizar aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:47
 msgid "Archived"
-msgstr "Arkistoitu"
+msgstr "Archivado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:49
 msgid "Draft"
-msgstr "Luonnos"
+msgstr "Borrador"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:81
 msgid "Published"
-msgstr "Julkaistu"
+msgstr "Publicado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:83
 msgid "updated"
-msgstr "päivitetty"
+msgstr "actualizado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:113
 msgid "Manage"
-msgstr "Hallinnoi"
+msgstr "Gestionar"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:125
 msgid "Private"
-msgstr "Yksityinen"
+msgstr "Privado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:142
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_info.html:22
 msgid "Launch website"
-msgstr "Avaa sivu"
+msgstr "Abrir sitio web"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:148
 msgid "Used datasets"
-msgstr "Käytetyt tietoaineistot"
+msgstr "Conjuntos de datos utilizados"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:152
 msgid "There are no Datasets in this Showcase"
-msgstr "Sovellukseen ei liity tietoaineistoja"
+msgstr "No hay conjuntos de datos en esta aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:160
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:204
 msgid "More from the author"
-msgstr "Saman tekijän muita sovelluksia"
+msgstr "Más del autor"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:162
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:206
 msgid "Show all from this author"
-msgstr "Näytä kaikki"
+msgstr "Mostrar todo de este autor"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:187
 msgid "Application website"
-msgstr "Sovelluksen verkkosivusto"
+msgstr "Sitio web de la aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:193
 msgid "Author website"
-msgstr "Tekijän verkkosivusto"
+msgstr "Sitio web del autor"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:13
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:52
 msgid "Search showcases..."
-msgstr "Etsi sovelluksia..."
+msgstr "Buscar aplicaciones..."
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:28
 msgid "Add Showcase"
-msgstr "Lisää sovellus"
+msgstr "Añadir aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:42
 msgid "Newest first"
-msgstr "Uusin ensin"
+msgstr "Más nuevo primero"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:43
 msgid "Oldest first"
-msgstr "Vanhin ensin"
+msgstr "Más antiguo primero"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:44
 msgid "Popular"
-msgstr "Suositut"
+msgstr ""
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:45
 msgid "Relevance"
-msgstr "Relevanssi"
+msgstr "Relevancia"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:46
 msgid "Name Ascending"
-msgstr "Nimen mukaan nousevasti"
+msgstr "Nombre ascendente"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:47
 msgid "Name Descending"
-msgstr "Nimen mukaan laskevasti"
+msgstr "Nombre descendente"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:48
 msgid "Last Modified"
-msgstr "Viimeksi muokattu"
+msgstr "Último modificado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:49
 msgid "Top rating"
-msgstr "Paras arvosana"
+msgstr "Más valorado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:32
 msgid "This showcase has no description"
-msgstr "Sovelluksella ei ole kuvausta"
+msgstr "Esta aplicación no tiene descripción"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:37
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:38
 msgid "View {showcase_title}"
-msgstr "Näytä {showcase_title}"
+msgstr "Ver {showcase_title}"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:45
 msgid "Remove dataset from this showcase"
-msgstr "Poista tietoaineisto tästä sovelluksesta"
+msgstr "Borrar conjunto de datos de esta aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_search_result_text.html:7
 msgid "{number} showcase found for '{query}'"
 msgid_plural "{number} showcases found for '{query}'"
-msgstr[0] "Haulla \"{query}\" löytyi {number} sovellus"
-msgstr[1] "Haulla \"{query}\" löytyi {number} sovellusta"
+msgstr[0] "{number} aplicaciones encontradas para '{query}'"
+msgstr[1] "{number} aplicaciones encontradas para '{query}'"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_search_result_text.html:8
 msgid "No showcases found for '{query}'"
-msgstr "Haulla \"{query}\" ei löytynyt sovelluksia"
+msgstr "No se encontraron aplicaciones para '{query}'"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_search_result_text.html:9
 msgid "{number} showcase found"
 msgid_plural "{number} showcases found"
-msgstr[0] "Löytyi {number} sovellus"
-msgstr[1] "Löytyi {number} sovellusta"
+msgstr[0] "{number} aplicación encontrada"
+msgstr[1] "{number} aplicaciones encontradas"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_search_result_text.html:10
 msgid "No showcases found"
-msgstr "Sovelluksia ei löytynyt"
+msgstr "No hay aplicaciones encontradas"

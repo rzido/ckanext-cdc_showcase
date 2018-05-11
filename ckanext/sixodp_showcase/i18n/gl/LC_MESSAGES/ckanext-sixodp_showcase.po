@@ -11,126 +11,127 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-04-12 12:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Language-Team: Swedish (https://www.transifex.com/6aika-dataportal/teams/68018/sv/)\n"
+"Language-Team: English (United Kingdom) (https://www.transifex.com/6aika-dataportal/teams/68018/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: sv\n"
+"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ckanext/sixodp_showcase/controller.py:64
 msgid "Showcase not found"
-msgstr ""
+msgstr "Aplicación non atopada"
 
 #: ckanext/sixodp_showcase/controller.py:66
 msgid "Unauthorized to read showcase"
-msgstr ""
+msgstr "Non estás autorizado a ler a aplicación"
 
 #: ckanext/sixodp_showcase/controller.py:105
 msgid "Not authorized to see this page"
-msgstr ""
+msgstr "Non estás autorizado a ver esta páxina"
 
 #: ckanext/sixodp_showcase/controller.py:199
 msgid "Organizations"
-msgstr ""
+msgstr "Organizacións"
 
 #: ckanext/sixodp_showcase/controller.py:200
 msgid "Groups"
-msgstr ""
+msgstr "Grupos"
 
 #: ckanext/sixodp_showcase/controller.py:201
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:33
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 #: ckanext/sixodp_showcase/controller.py:202
 msgid "Formats"
-msgstr ""
+msgstr "Formatos"
 
 #: ckanext/sixodp_showcase/controller.py:203
 msgid "Licenses"
-msgstr ""
+msgstr "Licenzas"
 
 #: ckanext/sixodp_showcase/controller.py:253
 msgid "Invalid search query: {error_message}"
-msgstr ""
+msgstr "Consulta de búsqueda invalida: {error_message}"
 
 #: ckanext/sixodp_showcase/controller.py:270
 msgid "Parameter \"{parameter_name}\" is not an integer"
-msgstr ""
+msgstr "Ó parámetro \"{parameter_name}\" Non é un entero"
 
 #: ckanext/sixodp_showcase/plugin.py:99
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #: ckanext/sixodp_showcase/plugin.py:101
 msgid "Platform"
-msgstr ""
+msgstr "Plataforma"
 
 #: ckanext/sixodp_showcase/templates/admin/base.html:6
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:38
 msgid "Showcase Admins"
-msgstr ""
+msgstr "Administradores de aplicacións"
 
 #: ckanext/sixodp_showcase/templates/admin/confirm_remove_showcase_admin.html:3
 #: ckanext/sixodp_showcase/templates/admin/confirm_remove_showcase_admin.html:16
 msgid "Confirm Remove"
-msgstr ""
+msgstr "Confirmar borrado"
 
 #: ckanext/sixodp_showcase/templates/admin/confirm_remove_showcase_admin.html:11
 msgid ""
 "Are you sure you want to remove this user as a Showcase Admin - {name}?"
-msgstr ""
+msgstr "Estás seguro de que desexas borrar este usuario como administrador de aplicacións - {name}?"
 
 #: ckanext/sixodp_showcase/templates/admin/confirm_remove_showcase_admin.html:15
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:9
 msgid "Manage Showcase Admins"
-msgstr ""
+msgstr "Xestionar admininistradores de aplicacións"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:16
 msgid "Add an Existing User"
-msgstr ""
+msgstr "Engadir un usuario existente"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:19
 msgid ""
 "To make an existing user a Showcase Admin, search for their username below."
-msgstr ""
+msgstr "Para convertir a un usuario existente en administrador de aplicacións, buscar embaixo polo seu nome de usuario"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:23
 msgid "Username"
-msgstr ""
+msgstr "Nome de usuario"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:32
 msgid "Add User"
-msgstr ""
+msgstr "Engadir usuario"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:43
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:51
 msgid ""
 "Are you sure you want to remove this user from the Showcase Admin list?"
-msgstr ""
+msgstr "Estás seguro de que desexas borrar este usuario da lista de administradores de aplicacións?"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:53
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:45
 msgid "Remove"
-msgstr ""
+msgstr "Borrar"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:61
-msgid "There are currently no Showcase Admins."
-msgstr ""
+msgid "There are currently NonShowcase Admins."
+msgstr "Actualmente non hai administradores de aplicacións"
 
 #: ckanext/sixodp_showcase/templates/admin/manage_showcase_admins.html:69
 msgid ""
 " <p><strong>Showcase Admin:</strong> Can create and remove showcases. Can "
 "add and remove datasets from showcases.</p> "
-msgstr ""
+msgstr "<p><strong>Administrador de aplicacións:</strong> Pode crear e borrar aplicacións. Pode"
+"Engadir e borrar conxuntos de datos das aplicacións"
 
 #: ckanext/sixodp_showcase/templates/package/dataset_showcase_list.html:3
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:5
@@ -141,78 +142,78 @@ msgstr ""
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:4
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:7
 msgid "Showcases"
-msgstr ""
+msgstr "Aplicacións"
 
 #: ckanext/sixodp_showcase/templates/package/dataset_showcase_list.html:13
 msgid "Associate this showcase with this dataset"
-msgstr ""
+msgstr "Asociar esta aplicación con este conxunto de datos"
 
 #: ckanext/sixodp_showcase/templates/package/dataset_showcase_list.html:13
 msgid "Add to showcase"
-msgstr ""
+msgstr "Engadir á aplicacíón"
 
 #: ckanext/sixodp_showcase/templates/package/dataset_showcase_list.html:21
-msgid "There are no showcases that feature this dataset"
-msgstr ""
+msgid "There are Nonshowcases that feature this dataset"
+msgstr "Non hai aplicacións que conteñan este conxunto de datos"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:18
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:21
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new.html:3
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:63
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/package_form.html:6
 msgid "Create Showcase"
-msgstr ""
+msgstr "Crear aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:34
 msgid "View showcase"
-msgstr ""
+msgstr "Ver aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:40
 msgid "Edit showcase"
-msgstr ""
+msgstr "Editar aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/edit_base.html:41
 msgid "Manage datasets"
-msgstr ""
+msgstr "Xestionar conxuntos de datos"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new.html:8
 msgid "Create a Showcase"
-msgstr ""
+msgstr "Crear unha aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:15
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:15
 msgid "eg. A descriptive title"
-msgstr ""
+msgstr "p.ex. un título descriptivo"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:24
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:24
 msgid "eg. my-showcase"
-msgstr ""
+msgstr "p.ex. mi-aplicacion"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:28
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:28
 msgid "eg. Some useful notes about the data"
-msgstr ""
+msgstr "p.ex. algunas notas útiles sobre los datos"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:33
 msgid "eg. economy, mental health, government"
-msgstr ""
+msgstr "p.ex. economía, salud mental, gobierno"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:44
 msgid "External link"
-msgstr ""
+msgstr "Ligazón externa"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:44
 msgid "http://www.example.com"
@@ -220,7 +221,7 @@ msgstr ""
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:48
 msgid "Submitted By"
-msgstr ""
+msgstr "Enviado por"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:48
 msgid "Joe Bloggs"
@@ -228,7 +229,7 @@ msgstr ""
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:50
 msgid "Submitter Email"
-msgstr ""
+msgstr "Email do  remitente"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:50
 msgid "joe@example.com"
@@ -236,88 +237,88 @@ msgstr ""
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:58
 msgid "Are you sure you want to delete this showcase?"
-msgstr ""
+msgstr "Estás seguro de que desexas borrar esta aplicación?"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:59
 msgid "Delete"
-msgstr ""
+msgstr "Borrar"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/new_package_form.html:63
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/package_form.html:6
 msgid "Update Showcase"
-msgstr ""
+msgstr "Actualizar aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:47
 msgid "Archived"
-msgstr ""
+msgstr "Arquivado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:49
 msgid "Draft"
-msgstr ""
+msgstr "Borrador"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:81
 msgid "Published"
-msgstr ""
+msgstr "Publicado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:83
 msgid "updated"
-msgstr ""
+msgstr "actualizado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:113
 msgid "Manage"
-msgstr ""
+msgstr "Xestionar"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:125
 msgid "Private"
-msgstr ""
+msgstr "Privado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:142
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_info.html:22
 msgid "Launch website"
-msgstr ""
+msgstr "Abrir sitio web"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:148
 msgid "Used datasets"
-msgstr ""
+msgstr "Conxuntos de datos utilizados"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:152
-msgid "There are no Datasets in this Showcase"
-msgstr ""
+msgid "There are NonDatasets in this Showcase"
+msgstr "Non hai conxuntos de datos en esta aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:160
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:204
 msgid "More from the author"
-msgstr ""
+msgstr "Máis do autor"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:162
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:206
 msgid "Show all from this author"
-msgstr ""
+msgstr "Amosar todo de este autor"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:187
 msgid "Application website"
-msgstr ""
+msgstr "Sitio web da aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/read.html:193
 msgid "Author website"
-msgstr ""
+msgstr "Sitio web do autor"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:13
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:52
 msgid "Search showcases..."
-msgstr ""
+msgstr "Buscar aplicacións..."
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:28
 msgid "Add Showcase"
-msgstr ""
+msgstr "Engadir aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:42
 msgid "Newest first"
-msgstr ""
+msgstr "Máis novo primeiro"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:43
 msgid "Oldest first"
-msgstr ""
+msgstr "Máis antigo primeiro"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:44
 msgid "Popular"
@@ -325,53 +326,53 @@ msgstr ""
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:45
 msgid "Relevance"
-msgstr ""
+msgstr "Relevancia"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:46
 msgid "Name Ascending"
-msgstr ""
+msgstr "Nome ascendente"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:47
 msgid "Name Descending"
-msgstr ""
+msgstr "Nome descendente"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:48
 msgid "Last Modified"
-msgstr ""
+msgstr "Último modificado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/search.html:49
 msgid "Top rating"
-msgstr ""
+msgstr "Máis valorado"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:32
-msgid "This showcase has no description"
-msgstr ""
+msgid "This showcase has Nondescription"
+msgstr "Esta aplicación non tén descrición"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:37
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:38
 msgid "View {showcase_title}"
-msgstr ""
+msgstr "Ver {showcase_title}"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_item.html:45
 msgid "Remove dataset from this showcase"
-msgstr ""
+msgstr "Borrar conxunto de datos de esta aplicación"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_search_result_text.html:7
 msgid "{number} showcase found for '{query}'"
 msgid_plural "{number} showcases found for '{query}'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} aplicacións atopadas para '{query}'"
+msgstr[1] "{number} aplicacións atopadas para '{query}'"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_search_result_text.html:8
-msgid "No showcases found for '{query}'"
-msgstr ""
+msgid "Nonshowcases found for '{query}'"
+msgstr "Non se atoparon aplicacións para '{query}'"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_search_result_text.html:9
 msgid "{number} showcase found"
 msgid_plural "{number} showcases found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} aplicación atopada"
+msgstr[1] "{number} aplicacións atopadas"
 
 #: ckanext/sixodp_showcase/templates/sixodp_showcase/snippets/showcase_search_result_text.html:10
-msgid "No showcases found"
-msgstr ""
+msgid "Nonshowcases found"
+msgstr "Non hai aplicacións atopadas"
