@@ -68,7 +68,7 @@
       },
       "choices": [
           {
-           "value": "android",
+           "value": "Android",
            "notation": "android",
            "label": "Android",                
            "description": {
@@ -78,9 +78,9 @@
             }
           },
           {
-           "value": "iOS",
-           "notation": "iOS",
-           "label": "iOS",                
+           "value": "Apple iOS",
+           "notation": "apple iOS",
+           "label": "Apple iOS",                
            "description": {
                "en": "Apple iOS Platform",
                "es": "Plataforma iOS de Apple",
