@@ -101,6 +101,9 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
             facets_dict['vocab_category_' + lang] = _('Category')
 
             facets_dict.update({'vocab_platform': _('Platform')})
+            
+            facets_dict['category'] = _('Category')
+            facets_dict['platform'] = _('Platform')
 
         return facets_dict
 
