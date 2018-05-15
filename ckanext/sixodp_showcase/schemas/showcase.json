@@ -73,9 +73,9 @@
             }
           },
           {
-           "value": "Microsoft"
-           "notation": "microsoft"
-           "label": "Microsoft"          
+           "value": "Microsoft",
+           "notation": "microsoft",
+           "label": "Microsoft" ,         
            "description": {
                "en": "Microsoft Plataform",
                "es": "Plataforma Microsoft",
