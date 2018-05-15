@@ -32,13 +32,28 @@
       "field_name": "category",
       "label": "Category",
       "form_placeholder":"eg. visualization",
-      "preset": "fluent_vocabulary_with_autocomplete",
-      "validators": "fluent_tags create_fluent_tags(category)",
-      "form_attrs": {
-        "data-module": "autocomplete",
-        "data-module-tags": "",
-        "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?&vocabulary_id=category"
-      },
+      "preset": "multiple_select",
+           "choices": [
+          {
+           "value": "visualization",
+           "notation": "visualization",
+           "label": "Visualization",                
+           "description": {
+               "en": "Visualization",
+               "es": "Visualización",
+               "gl": "Visualización"
+            }
+          },
+          {
+           "value": "app",
+           "notation": "app",
+           "label": "Application",                
+           "description": {
+               "en": "Application",
+               "es": "Aplicación",
+               "gl": "Aplicación"
+            }
+          }],
       "description": "Category which represents showcase."
     },
     {
