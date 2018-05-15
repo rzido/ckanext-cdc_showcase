@@ -194,7 +194,7 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
         return self._add_to_pkg_dict(context, data_dict)
 
     def before_index(self, data_dict):
-        showcase = sh.scheming_get_schema('dataset', 'showcase')
+        dataset = sh.scheming_get_schema('dataset', 'showcase')
         
              
        # if data_dict.get('platform'):
