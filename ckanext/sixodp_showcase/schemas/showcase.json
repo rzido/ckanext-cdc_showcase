@@ -28,7 +28,7 @@
       "form_languages": ["gl", "es", "en"],
        "required_language": "gl"
    },
-       {
+   {
       "field_name": "category",
       "label": "Category",
       "form_placeholder":"eg. visualization",
@@ -45,14 +45,53 @@
       "field_name": "platform",
       "label": "Platform",
       "form_placeholder":"eg. android",
-      "preset": "vocabulary_with_autocomplete",
-      "validators": "convert_to_list create_tags(platform)",
-      "form_attrs": {
-        "data-module": "autocomplete",
-        "data-module-tags": "",
-        "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?&vocabulary_id=platform"
+      "preset": "multiple_select",
+      "help_text":  {
+          "en": "Select a plataform",
+          "es": "Selecciona una plataforma",      
+          "gl": "Selecciona unha plataforma"          
       },
-      "description": "Platforms of the showcase."
+      "choices": [
+          {
+           "value": "android",
+           "notation": "android",
+           "label": "Android",                
+           "description": {
+               "en": "Android Platforms",
+               "es": "Plataformas Android",
+               "gl": "Plataformas Android"
+            }
+          },
+          {
+           "value": "iOS",
+           "notation": "iOS",
+           "label": "Android",                
+           "description": {
+               "en": "Apple iOS Platform",
+               "es": "Plataforma iOS de Apple",
+               "gl": "Plataforma iOS de Apple"
+            }
+          },
+          {
+           "value": "Microsoft"
+           "notation": "microsoft"
+           "label": "Microsoft"          
+           "description": {
+               "en": "Microsoft Plataform",
+               "es": "Plataforma Microsoft",
+               "gl": "Plataforma Microsoft"
+            }
+          },
+          {
+           "value": "Other"
+           "notation": "other"
+           "label": "Otras"          
+           "description": {
+               "en": "Other Plaftorms",
+               "es": "Otras plataformas",
+               "gl": "Outras plataformas"
+            }
+          }                       
     },     
     {
       "field_name": "owner_org",
