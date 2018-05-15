@@ -47,9 +47,9 @@
       "form_placeholder":"eg. android",
       "preset": "multiple_select",
       "help_text":  {
-          "en": "Select a plataform",
-          "es": "Selecciona una plataforma",      
-          "gl": "Selecciona unha plataforma"          
+          "en": "Select a plataform. Multiple Selection allowed.",
+          "es": "Selecciona una o varias plataformas.",      
+          "gl": "Selecciona unha ou varias plataformas."          
       },
       "choices": [
           {
@@ -65,7 +65,7 @@
           {
            "value": "iOS",
            "notation": "iOS",
-           "label": "Android",                
+           "label": "iOS",                
            "description": {
                "en": "Apple iOS Platform",
                "es": "Plataforma iOS de Apple",
@@ -125,6 +125,11 @@
       "display_snippet": "repeating_link.html",
       "form_snippet": "repeating.html",
       "description": "Links to stores",
+      "help_text": {
+         "es": "Enlaces a tiendas de apps.",
+         "gl": "Ligazóns a tendas de apps.",
+         "en": "Links to stores."
+      },         
       "validators": "repeating_text"
    },
    {
