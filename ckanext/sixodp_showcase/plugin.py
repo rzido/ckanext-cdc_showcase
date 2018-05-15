@@ -194,8 +194,7 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
         return self._add_to_pkg_dict(context, data_dict)
 
     def before_index(self, data_dict):
-        dataset = sh.scheming_get_schema('dataset', 'showcase')
-        
+       
              
        # if data_dict.get('platform'):
        #     data_dict['vocab_platform'] = [tag for tag in json.loads(data_dict['platform'])]
@@ -209,26 +208,27 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
        #         data_dict['vocab_category_es'] = [tag for tag in keywords_json['es']]
        #     if keywords_json.get('en'):
        #         data_dict['vocab_category_en'] = [tag for tag in keywords_json['en']]
+       # dataset = sh.scheming_get_schema('dataset', 'showcase')
+        
 
-
-        if (data_dict.get('category')):
-            #Get theme field
-           categoria = sh.scheming_field_by_name(dataset.get('dataset_fields'),
-                            'category')
+       # if (data_dict.get('category')):
+       #     #Get theme field
+       #    categoria = sh.scheming_field_by_name(dataset.get('dataset_fields'),
+       #                     'category')
  
-           #Get theme value
-           valor_categoria = data_dict['category']
+       #    #Get theme value
+       #    valor_categoria = data_dict['category']
  
-           #Empty theme values
-           data_dict['category'] = []
+       #    #Empty theme values
+       #    data_dict['category'] = []
  
-           #Get key values
-           valores = valor_categoria.replace('[','').replace(']','')
-           categorias = valores.split('", "')
-           #Get translated label for each key
-           for term_categoria in list(categorias):
-               clean_term = term_categoria.replace('"','')
-               data_dict['category'].append(clean_term)
+       #    #Get key values
+       #    valores = valor_categoria.replace('[','').replace(']','')
+       #    categorias = valores.split('", "')
+       #    #Get translated label for each key
+       #    for term_categoria in list(categorias):
+       #        clean_term = term_categoria.replace('"','')
+       #        data_dict['category'].append(clean_term)
              
            
 
