@@ -194,18 +194,18 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
 
     def before_index(self, data_dict):
 
-        if data_dict.get('platform'):
-            data_dict['vocab_platform'] = [tag for tag in json.loads(data_dict['platform'])]
+       # if data_dict.get('platform'):
+       #     data_dict['vocab_platform'] = [tag for tag in json.loads(data_dict['platform'])]
 
-        keywords = data_dict.get('category')
-        if keywords:
-            keywords_json = json.loads(keywords)
-            if keywords_json.get('fi'):
-                data_dict['vocab_category_gl'] = [tag for tag in keywords_json['gl']]
-            if keywords_json.get('sv'):
-                data_dict['vocab_category_es'] = [tag for tag in keywords_json['es']]
-            if keywords_json.get('en'):
-                data_dict['vocab_category_en'] = [tag for tag in keywords_json['en']]
+       # keywords = data_dict.get('category')
+       # if keywords:
+       #     keywords_json = json.loads(keywords)
+       #     if keywords_json.get('fi'):
+       #         data_dict['vocab_category_gl'] = [tag for tag in keywords_json['gl']]
+       #     if keywords_json.get('sv'):
+       #         data_dict['vocab_category_es'] = [tag for tag in keywords_json['es']]
+       #     if keywords_json.get('en'):
+       #         data_dict['vocab_category_en'] = [tag for tag in keywords_json['en']]
 
 
         return data_dict
