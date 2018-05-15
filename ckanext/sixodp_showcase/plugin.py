@@ -98,13 +98,14 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
             if lang in self._LOCALE_ALIASES:
                 lang = self._LOCALE_ALIASES[lang]
 
-            facets_dict['vocab_category_' + lang] = _('Category')
+            #facets_dict['vocab_category_' + lang] = _('Category')
 
-            facets_dict.update({'vocab_platform': _('Platform')})
+            #facets_dict.update({'vocab_platform': _('Platform')})
             
-            facets_dict['category'] = _('Category')
-            facets_dict['platform'] = _('Platform')
-
+            
+            facets_dict.update({'platform': _('Platform')})
+            facets_dict.update({'category': _('Category')})
+            
         return facets_dict
 
     # IRoutes
