@@ -28,6 +28,32 @@
       "form_languages": ["gl", "es", "en"],
        "required_language": "gl"
    },
+       {
+      "field_name": "category",
+      "label": "Category",
+      "form_placeholder":"eg. visualization",
+      "preset": "fluent_vocabulary_with_autocomplete",
+      "validators": "fluent_tags create_fluent_tags(category)",
+      "form_attrs": {
+        "data-module": "autocomplete",
+        "data-module-tags": "",
+        "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?&vocabulary_id=category"
+      },
+      "description": "Category which represents showcase."
+    },
+    {
+      "field_name": "platform",
+      "label": "Platform",
+      "form_placeholder":"eg. android",
+      "preset": "vocabulary_with_autocomplete",
+      "validators": "convert_to_list create_tags(platform)",
+      "form_attrs": {
+        "data-module": "autocomplete",
+        "data-module-tags": "",
+        "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?&vocabulary_id=platform"
+      },
+      "description": "Platforms of the showcase."
+    },     
     {
       "field_name": "owner_org",
       "validators": "ignore",
