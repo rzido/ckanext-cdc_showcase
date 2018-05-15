@@ -76,17 +76,7 @@
                "es": "Plataformas Android",
                "gl": "Plataformas Android"
             }
-          },
-          {
-           "value": "Apple iOS",
-           "notation": "apple iOS",
-           "label": "Apple iOS",                
-           "description": {
-               "en": "Apple iOS Platform",
-               "es": "Plataforma iOS de Apple",
-               "gl": "Plataforma iOS de Apple"
-            }
-          },
+          },      
           {
            "value": "Microsoft",
            "notation": "microsoft",
@@ -95,6 +85,16 @@
                "en": "Microsoft Platform",
                "es": "Plataforma Microsoft",
                "gl": "Plataforma Microsoft"
+            }
+          },
+          {
+           "value": "Apple iOS",
+           "notation": "appleios",
+           "label": "Apple iOS" ,         
+           "description": {
+               "en": "Apple iOS Platform",
+               "es": "Plataforma iOS de Apple",
+               "gl": "Plataforma iOS de Apple"
             }
           },
           {
