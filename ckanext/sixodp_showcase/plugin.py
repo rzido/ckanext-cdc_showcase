@@ -228,7 +228,7 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
            #Get translated label for each key
            for term_categoria in list(categorias):
                clean_term = term_categoria.replace('"','')
-               data_dict['theme'].append(clean_term)
+               data_dict['category'].append(clean_term)
              
            
 
