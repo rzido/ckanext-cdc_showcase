@@ -83,9 +83,9 @@
             }
           },
           {
-           "value": "Other"
-           "notation": "other"
-           "label": "Otras"          
+           "value": "Other",
+           "notation": "other",
+           "label": "Otras",        
            "description": {
                "en": "Other Plaftorms",
                "es": "Otras plataformas",
