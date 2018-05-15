@@ -208,7 +208,7 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
        #         data_dict['vocab_category_en'] = [tag for tag in keywords_json['en']]
 
 
-         if (data_dict.get('category'):
+         if (data_dict.get('category')):
             #Get theme field
             categoria = sh.scheming_field_by_name(dataset.get('dataset_fields'),
                             'category')
