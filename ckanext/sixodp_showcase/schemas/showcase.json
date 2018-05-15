@@ -88,8 +88,8 @@
             }
           },
           {
-           "value": "AppleiOS",
-           "notation": "appleios",
+           "value": "ios",
+           "notation": "apple_ios",
            "label": "AppleiOS" ,         
            "description": {
                "en": "Apple iOS Platform",
