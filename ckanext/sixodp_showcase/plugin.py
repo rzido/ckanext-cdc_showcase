@@ -103,8 +103,8 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
             #facets_dict.update({'vocab_platform': _('Platform')})
             
             
-            facets_dict.update({'platform': _('Platform')})
-            facets_dict.update({'category': _('Category')})
+            facets_dict.update({'platform': toolkit._('Platform')})
+            facets_dict.update({'category': toolkit._('Category')})
             
         return facets_dict
 
