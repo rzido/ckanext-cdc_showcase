@@ -77,11 +77,21 @@
            "notation": "microsoft",
            "label": "Microsoft" ,         
            "description": {
-               "en": "Microsoft Plataform",
+               "en": "Microsoft Platform",
                "es": "Plataforma Microsoft",
                "gl": "Plataforma Microsoft"
             }
           },
+          {
+           "value": "Web",
+           "notation": "web",
+           "label": "Web" ,         
+           "description": {
+               "en": "Web Platform",
+               "es": "Plataforma Web",
+               "gl": "Plataforma Web"
+            }
+          },        
           {
            "value": "Other",
            "notation": "other",
