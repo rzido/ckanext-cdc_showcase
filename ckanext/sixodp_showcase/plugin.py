@@ -99,8 +99,8 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
                 lang = self._LOCALE_ALIASES[lang]
 
             #facets_dict['vocab_category_' + lang] = _('Category')
-
             #facets_dict.update({'vocab_platform': _('Platform')})
+                        
             
             
             facets_dict.update({'platform': toolkit._('Platform')})
@@ -207,5 +207,26 @@ class Sixodp_ShowcasePlugin(ShowcasePlugin):
        #     if keywords_json.get('en'):
        #         data_dict['vocab_category_en'] = [tag for tag in keywords_json['en']]
 
+
+         if (data_dict.get('category'):
+            #Get theme field
+            categoria = sh.scheming_field_by_name(dataset.get('dataset_fields'),
+                            'category')
+ 
+            #Get theme value
+            valor_categoria = data_dict['category']
+ 
+            #Empty theme values
+            data_dict['category'] = []
+ 
+            #Get key values
+            valores = valor_categoria.replace('[','').replace(']','')
+            categorias = valores.split('", "')
+            #Get translated label for each key
+            for term_categoria in list(categorias):
+                clean_term = term_categoria.replace('"','')
+                data_dict['theme'].append(clean_term)
+             
+           
 
         return data_dict
