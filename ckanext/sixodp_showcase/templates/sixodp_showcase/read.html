@@ -61,7 +61,16 @@
             [{{ _('Draft') }}]
          {% endif %}
        {% endblock %}
-      </h1>
+     </h1>
+
+    {% block package_notes %}
+      {% if pkg.notes or pkg.notes_translated %}
+        <div class="notes embedded-content ckanext-showcase-notes">
+          {{ h.render_markdown(h.get_translated(pkg, 'notes')) }}
+        </div>
+      {% endif %}
+    {% endblock %}
+      
 
       {% if pkg.icon_display_url %}
         <div class="heading-icon">
@@ -69,7 +78,8 @@
         </div>
       {% endif %}
 
-    
+ 
+
     {% if pkg.image_display_url %}
       <p class="ckanext-showcase-image-container"><img src="{{ pkg.image_display_url }}" alt="{{ name }}" class="media-image ckanext-showcase-image"></p>
     {% endif %}
@@ -92,14 +102,7 @@
   {% endblock %}
 
 
-    {% block package_notes %}
-      {% if pkg.notes or pkg.notes_translated %}
-        <div class="notes embedded-content ckanext-showcase-notes">
-          {{ h.render_markdown(h.get_translated(pkg, 'notes')) }}
-        </div>
-      {% endif %}
-    {% endblock %}
-
+   
     {% if pkg.url %}
       <p><a class="btn btn-primary ckanext-showcase-launch" href="{{ pkg.url }}" target="_blank"><i class="fab fab-external-link"></i> {{ _('Launch website') }}</a></p>
     {% endif %}
